@@ -1,14 +1,8 @@
 var app = new Vue({
     el: '#app',
     data: {
-        product: "Socks",
+        product: "Chaussettes",
+        description: "De chaudes et confortable chaussettes",
+        image: "greensocks.png"
     }
-})
-
-var description = new Vue({
-    el: '#description',
-    data: {
-        description: "A pair of warm, fuzzy socks"
-    }
-
 })

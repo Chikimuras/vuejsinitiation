@@ -1,9 +1,12 @@
-#app{
-    margin-top: 2em;
-    margin-bottom: 2em;
-    font-size: 2.5em;
+img{
+    width: 250px;
+    height: 250px;
+    border: none;
 }
 
-#description{
-    font-size: 1.85em;
+.product-card{
+    display: flex;
+    border: solid 1.25px #666;
+    border-radius: 5px;
+    width: 35%;
 }
