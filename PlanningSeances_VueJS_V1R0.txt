@@ -1,0 +1,135 @@
+VueJS
+
+> Séance 1 
+
+1.1 Hello World en VueJS
+==> Dans un HTML - JS classique, avec chargement de VueJS via le CDN
+==> Dans un projet front géré par NPM et Browserify
+==> Découverte de la Vue instance
+==> Découverte du binding de propriétés (v-text, v-html, v-bind et {{...}})
+
+Lectures :
+> https://fr.vuejs.org/v2/guide/index.html#Vue-js-qu%E2%80%99est-ce-que-c%E2%80%99est
+> https://fr.vuejs.org/v2/guide/index.html#Pour-commencer
+> https://fr.vuejs.org/v2/guide/index.html#Rendu-declaratif
+> https://fr.vuejs.org/v2/guide/syntax.html#Interpolations
+> https://fr.vuejs.org/v2/guide/installation.html#Inclusion-directe-lt-script-gt
+> https://fr.vuejs.org/v2/guide/installation.html#npm
+
+> Séance 2
+
+2.1 Approfondissement autour de la Vue instance
+==> Cycle de vie de la Vue instance
+==> Filtres
+==> Propriétés calculées
+==> Event binding et méthodes
+
+Lectures :
+> https://fr.vuejs.org/v2/guide/instance.html#Hooks-de-cycle-de-vie-d%E2%80%99une-instance
+> https://fr.vuejs.org/v2/guide/instance.html#Diagramme-du-cycle-de-vie
+> https://fr.vuejs.org/v2/guide/computed.html#Proprietes-calculees
+> https://fr.vuejs.org/v2/guide/filters.html
+> https://fr.vuejs.org/v2/guide/index.html#Gestion-des-entrees-utilisateur
+> https://fr.vuejs.org/v2/guide/events.html#Ecouter-des-evenements
+> https://fr.vuejs.org/v2/guide/events.html#Methodes-des-gestionnaires-d%E2%80%99evenements
+> https://fr.vuejs.org/v2/guide/events.html#Methodes-appelees-dans-les-valeurs-d%E2%80%99attributs
+
+> Séance 3
+
+3.1 Structures de contrôle pour l'affichage
+==> Affichage conditionnel
+==> Affichage en boucle
+
+Lectures :
+> https://fr.vuejs.org/v2/guide/index.html#Conditions-et-boucles
+> https://fr.vuejs.org/v2/guide/conditional.html (pas tout lire, à compléter)
+> https://fr.vuejs.org/v2/guide/list.html#Associer-un-tableau-a-des-elements-avec-v-for
+> https://fr.vuejs.org/v2/guide/list.html#Affichage-de-resultats-filtres-tries
+> https://fr.vuejs.org/v2/guide/list.html#v-for-et-plage-de-valeurs
+
+3.2 Gestion des formulaires
+==> Binding bi-directionnel
+
+Lectures :
+> https://fr.vuejs.org/v2/guide/forms.html#Usage-basique
+> https://fr.vuejs.org/v2/guide/forms.html#Liaisons-des-attributs-value
+
+> Séance 4
+
+4.1 Découverte de la notion de composant
+==> composant global
+==> composant local
+==> développement modulaire (séparation des fichiers)
+
+Lectures :
+> https://fr.vuejs.org/v2/guide/index.html#Composer-avec-des-composants
+> https://fr.vuejs.org/v2/guide/components.html#Exemple-de-base
+> https://fr.vuejs.org/v2/guide/components.html#Reutilisation-de-composants
+> https://fr.vuejs.org/v2/guide/components-registration.html#Noms-de-composant
+> https://fr.vuejs.org/v2/guide/components-registration.html#Creation-globale
+> https://fr.vuejs.org/v2/guide/components-registration.html#Creation-locale
+
+> Séance 5
+
+5.1 Communication inter-composants
+==> Via des propriétés
+==> Via des events
+==> Notion de Slot
+
+Lectures :
+> https://fr.vuejs.org/v2/guide/components.html#Passer-des-donnees-aux-composants-enfants-avec-les-props
+> https://fr.vuejs.org/v2/guide/components.html#Envoyer-des-messages-aux-parents-avec-les-evenements
+> https://fr.vuejs.org/v2/guide/components.html#Distribution-de-contenu-avec-les-slots
+> https://fr.vuejs.org/v2/guide/components-slots.html#Les-contenu-de-slot
+> https://fr.vuejs.org/v2/guide/components-slots.html#Les-slots-nommes
+
+5.2 Techniques avancées (optionnel)
+==> Mixins
+==> Custom directives 
+
+Lectures :
+> https://fr.vuejs.org/v2/guide/mixins.html#Bases
+> https://fr.vuejs.org/v2/guide/mixins.html#Fusion-des-options
+> https://fr.vuejs.org/v2/guide/mixins.html#Mixin-global
+> https://fr.vuejs.org/v2/guide/custom-directive.html#Introduction
+
+> Séance 6
+
+6.1 Routage
+==> Découverte de Vue-router
+
+Lectures :
+https://router.vuejs.org/fr/installation.html
+> https://router.vuejs.org/guide/#html
+> https://router.vuejs.org/guide/essentials/dynamic-matching.html#reacting-to-params-changes
+
+> Séance 7
+
+7.1 Plate-forme de développement avancé
+==> Découverte de Vue-CLI
+==> Définition de composants dans des fichiers .vue 
+
+Lectures :
+> https://fr.vuejs.org/v2/guide/single-file-components.html
+> https://cli.vuejs.org/
+> https://cli.vuejs.org/guide/
+> https://cli.vuejs.org/guide/installation.html
+> https://cli.vuejs.org/guide/creating-a-project.html#vue-create
+> https://cli.vuejs.org/guide/cli-service.html#using-the-binary
+
+> Séance 8
+
+8.1 Plate-forme de développement avancé
+==> Intégration Laravel - Vue
+
+Lectures :
+> https://laravel.com/docs/5.7/frontend#writing-vue-components
+> http://laravel.sillo.org/cours-laravel-5-5-vue-js/
+
+8.2 Plate-forme de développement avancé
+==> Découverte de VueX : le Store
+
+Lectures :
+> https://vuex.vuejs.org/installation.html
+> https://vuex.vuejs.org/
+> https://vuex.vuejs.org/guide/

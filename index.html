@@ -25,14 +25,28 @@
                 <p v-if="inStock">In stock</p>
                 <p v-else>Out of stock</p>
 
+                <ul>
+                    <li v-for="detail in details">{{detail}}</li>
+                </ul>
+
+                <div v-for="variant in variants" :key="variant.variantId">
+                    <p>{{variant.variantColor}}</p>
+                </div>
+
+                <div>
+                    <select name="size" id="sizes">
+                        <option v-for="size in sizes" v-bind:value="size">{{size}}</option>
+                    </select>
+                </div>
+                
                 <a v-bind:href="link" class="link-to-buy">Clique pour aller sur google</a>
             </div>
         </div>
 
     </div>
 
-
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <script src="main.js"></script>
 </body>
+
 </html>
