@@ -4,6 +4,7 @@ var app = new Vue({
         product: "Chaussettes",
         description: "De chaudes et confortable chaussettes",
         image: "greensocks.png",
-        link: "https://www.google.fr"
+        link: "https://www.google.fr",
+        inStock : true
     }
 })
