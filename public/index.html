@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>Vue.js Hello World</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <div id="app">
+
+        <h1 class="title">{{ message }}</h1 class="title">
+
+        <h2 v-text="subtitle"></h2>
+
+        <p v-html="description"></p>
+
+        <p>Powered by <a v-bind:href="providerUrl" target="_blank">{{ provider }}</a></p>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
+
